@@ -123,6 +123,13 @@ export default function Home() {
           onSubmit={handleSubmit}
           className="max-w-3xl mx-auto flex items-center gap-3"
         >
+          {/* Softened "V" avatar */}
+          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-violet-400/20 to-fuchsia-400/20 border border-violet-300/30 flex items-center justify-center shadow-[0_0_12px_rgba(167,139,250,0.15)]">
+            <span className="text-violet-200 font-medium text-sm tracking-tight">
+              V
+            </span>
+          </div>
+          
           {/* Pill-shaped input */}
           <input
             className="flex-1 rounded-full bg-white/5 border border-white/10 px-5 py-3 text-sm text-slate-200 placeholder:text-slate-500 outline-none focus:ring-2 focus:ring-violet-400/40 focus:border-violet-400/30 transition-all backdrop-blur-sm"
